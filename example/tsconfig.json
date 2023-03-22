@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-exo-player": ["../src/index"],
+      "react-native-exo-player/*": ["../src/*"]
+    }
+  }
+}

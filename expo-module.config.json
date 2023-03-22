@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android", "web"],
+  "ios": {
+    "modules": ["ReactNativeExoPlayerModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.exoplayer.ReactNativeExoPlayerModule"]
+  }
+}
